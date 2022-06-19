@@ -1,0 +1,35 @@
+.post {
+  background-color: white;
+  border-radius: 17px;
+  display: flex;
+  margin: 18px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 16px 24px;
+}
+
+.post-thumbnail {
+  max-width: 80px;
+  max-height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  align-self: center;
+  flex-shrink: 0;
+}
+
+.post-thumbnail img {
+  width: 100%;
+}
+
+.post-like {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  align-self: center;
+  padding-left: 24px;
+  margin-left: auto;
+  font-size: 14px;
+}
